@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Noto+Sans+TC:wght@700&family=Source+Sans+Pro:wght@600&display=swap');
+*{
+box-sizing: border-box;
+margin: 0; padding: 0;
+}
+/*same attribute*/
+p,h1,h2,h3,span,p{
+    font-family: Arimo;
+}
+
+span{ color: #e02121;}
+
+
+/*start  heading ..  cover  */
+.header{
+ background-image: url("pic/coff.jpg");
+ background-repeat:no-repeat ;
+ background-attachment: fixed;
+ background-size: cover;
+position: relative;
+ height: 650px;
+}
+.nav{
+    padding: 20px 0 0 90px;
+    font-family: "Sans TC";
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.header .align{
+position: absolute;
+cursor: pointer;
+right: 120px;
+top: 18px;
+}
+
+.header .cover{
+    text-align: center;
+    padding-top: 200px;
+    line-height: 1.5em;
+}
+
+.header .cover h1{
+    letter-spacing: 1.8px;
+    font-size: 2.6em;
+    color: black;
+    font-weight:bold;
+    margin-bottom: 20px;
+    line-height: 1.1em;
+}
+
+.cover .butnh,.btn-submit{
+    background-color: #e02121;
+    color: #fff;
+    width: 160px;
+    padding:15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/*end heading ..  cover  */
+
+/* start first photo section*/
+.craft{
+    font-family: "Noto Sans TC";
+    margin:80px 0 42px 0 ;
+    text-align: center;
+    font-size: 28px;
+}
+
+.three-photo{
+    margin: 0 158px 50px 158px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+     
+}
+.three-photo .pho img{
+max-width: 320px;
+  overflow: hidden;
+    flex: 0 1 32%;
+}
+
+
+.three-photo .pho h3{
+    margin: 15px 0;
+    word-wrap: 4;
+}
+.three-photo .pho p{
+    padding: 0 60px 50px 60px;
+    text-align:center;
+  
+}
+
+/* end first photo section*/
+
+/* start 1*photo&text 50% */
+
+.second{ display: flex; margin-bottom: 0px; }
+
+.second .pic img{
+    max-width: 700px;
+    height: 450px;
+    
+}
+
+.second .half{
+   
+    color: #fff;
+    flex:0 1 50%;
+    height: 450px;
+ 
+}
+
+.second .tex{
+    background-color: #e02121;
+    padding: 100px 80px 0 80px;
+    font-family: "Noto Sans TC";
+}
+
+.second .tex h2{
+    margin-bottom: 25px;
+     font-size: 28px;
+      line-height: 1.3em;
+      letter-spacing: .4px;
+    }
+
+    .second .tex p{
+        margin: 0 0 40px 0;
+        line-height: 1.3em;
+      font-weight: 600;
+    }
+
+    .second .tex .btn2,.btn-sub{
+        background-color:#fff ;
+        color: #e02121;
+        width: 160px;
+        padding:15px 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+/* end 1*photo&text 50% */
+
+/*start four divs */
+.third{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+    
+}
+.third .part{
+    flex: 0 1 47%;
+    height: 360px;
+    padding: 130px;
+    font-size: 14px;
+}
+.third .part img{
+    max-width: 440px;
+}
+
+.third .part1 h2{
+font-size: 26px;
+padding-top: 60px;
+margin-bottom: 15px;
+}
+.third .part2{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.third .part3{
+    padding-left: 10px; 
+    padding-right: 100px;
+}
+.third .part3 h2{
+    font-size: 26px;
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+ .third .part4{
+     padding-right: 10px;
+ }
+
+/*end four divs */
+.four{
+    margin-top: 230px;
+}
+.four .left{
+    padding-left: 130px;
+    
+}
+
+
+/*  last section & footer */
+.content{
+    margin: 50px 0px 70px 150px;
+    position: relative;
+    display: flex;
+}
+.content h2{
+    padding-bottom: 10px;
+}
+.content label{
+    display:block ;
+    width: 60%;
+    margin-top: 10px;
+    
+}
+.content input{
+    width: 285px;
+    height: 50px;
+    margin:  15px 8px 10px 0;
+    padding: 0 20px;
+    opacity: .7;
+    outline:none;
+     border: 1px solid #f4f4f4 ;
+    -webkit-box-shadow: 5px 5px 5px 5px #f4f4f4;
+    -moz-box-shadow:  5px 5px 5px 5px #f4f4f4;
+    box-shadow:  5px 2px 5px 5px #f4f4f4;
+    
+}
+.content .rap{
+    display:inline;
+    position: absolute;
+    left: 300px;
+}
+.content .msg{
+    padding: 10px 0 ;
+}
+.content textarea{
+    border: 1px solid #f4f4f4 ;
+    box-shadow:  5px 2px 5px 5px #f4f4f4;
+    opacity: .5;
+    padding: 20px;
+
+    
+}
+.content .map{
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.content button{
+    display: block;
+    margin-top: 20px;
+}
+/* subscribe*/
+.last{
+    width: 100%;
+    height: 150px;
+    background-color: #e02121;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+ 
+
+}
+.last h2{
+    display: inline;
+    color: #fff;
+    margin-right: 15px;
+}
+.last input{
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+   outline: none;
+    border: none;
+    color: #b6b1b1 ;
+    margin-right: 15px;
+}
+
+.last .btn-sub{height: 40px;}
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  height: 180px;
+  position: relative;
+
+}
+.footer h2{ letter-spacing: .2em; font-size: 2em;}
+
+.footer h4{
+    color: #6b6b6b;
+    position: absolute;
+    right: 50px;
+}
+ a{text-decoration: none; color: black;}
+
+ .footer .red{color: #e02121;}
+
+.footer .icon{
+    position: absolute;
+    left: 50px
+}
+.footer ul,li{
+    list-style: none;
+    float: left;
+    margin: 0 6px;
+   
+}
+
