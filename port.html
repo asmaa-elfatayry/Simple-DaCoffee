@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="port.css" >
+    <link rel="stylesheet" href="css/port.css" >
+    <link rel="stylesheet" href="css/responsive.css" >
     <title>Da Coffee</title>
 </head>
 <body>
     <!-- start header -->
-    <header class=" header">
-        <i class="fa fa-align-justify align" style="font-size:28px;"></i>
-         <h4 class="nav"> <span>DA</span> COFFEE</h4>
+    <nav>
+        <a href="#" id="logo"> <span>DA</span> COFFEE</a>
+        <ul id="ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <header >
+      
         <div class="cover" >
             <h1>LIFE IS BETTER WITH </br> <span>DA COFFEE</span></h1>    
             <button class="butnh">VIEW SHOPS</button>
         </div>
     </header>
+  
      <!-- end header -->
      <!--first photo section-->
      <section class="firsts">
@@ -26,17 +37,17 @@
          <div class="three-photo">
             
             <div class=" pho">
-               <img  src="pic/pho1.jpg">
+               <img  src="pic/pho1.jpg" alt="image not found">
                <h3>BLENDS</h3>
                <p>Lorem ipsum dolor sit amet, adipisicing is elit. Provident enim etsed to  magnam.</p>
             </div>
              <div class=" pho">
-              <img  src="pic/pho2.jpg">
+              <img  src="pic/pho2.jpg"  alt="image not found">
               <h3>ESPRESSO</h3>
                <p>Lorem ipsum dolor sit amet, adipisicing is elit. Provident enim et sed to magnam.</p>
             </div>
             <div class=" pho">
-              <img  src="pic/pho3.jpg">
+              <img  src="pic/pho3.jpg"  alt="image not found">
               <h3>GIFT SET</h3>
                <p>Lorem ipsum dolor sit amet, adipisicing is elit. Provident enim et sed to magnam.</p>
             </div>
@@ -48,7 +59,7 @@
      <!-- start 1*photo&text 50%-->
      <article class="second">
       <div class="pic half">
-         <img src="pic/pho4.jpg">
+         <img src="pic/pho4.jpg"  alt="image not found">
       </div>
       <div class="tex half">
        <h2>YOU CAN'T BUY FINER FRESHER </br>COFFEE YOU LIKED.</h2>
@@ -74,11 +85,11 @@
         </div>
 
         <div class="part2 part">
-            <img src="pic/pho6.jpg">
+            <img src="pic/pho6.jpg"  alt="image not found">
         </div>
 
         <div class="part4 part">
-            <img src="pic/pho5.jpg">
+            <img src="pic/pho5.jpg"  alt="image not found">
         </div>
 
         <div class="part3 part">
@@ -94,7 +105,6 @@
 
       <!-- start 2*photo&text 50%-->
      <article class="second four">
-       
         <div class="tex half left">
          <h2>YOU CAN'T BUY FINER FOR </br>COFFEE YOU LIKED.</h2>
          <p>
@@ -105,7 +115,7 @@
          <button class="btn2">VIEW SHOPS</button>
         </div>
         <div class="pic half">
-            <img src="pic/pho7.jpg">
+            <img src="pic/pho7.jpg"  alt="image not found">
          </div>
      </article>
        <!-- end 2*photo&text 50%-->
@@ -116,14 +126,14 @@
             <div class="label">
              <h2>GET IN <span>TOUCH</span></h2>
              <label class="lab1">Full Name* <div class="rap"> Email Address*</div></label>
-              <input value="Full name" type="text">
-            <input value="Email" type="text">
+              <input placeholder="Full name" type="text">
+            <input placeholder="Email" type="text">
              <label class="msg">Message*</label>
-             <textarea rows="11" cols="75">Message</textarea>
+             <textarea rows="11" cols="55" placeholder="your message"></textarea>
              <button type="submit" class="btn-submit"> Submit</button>
             </div>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d27612.353391594082!2d31.309824!3d30.1072384!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1617717854218!5m2!1sen!2seg" 
+                <iframe title="frame" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d27612.353391594082!2d31.309824!3d30.1072384!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1617717854218!5m2!1sen!2seg" 
                 width="440" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
            </div>
        </section>
@@ -131,7 +141,7 @@
         <section class="last">
         <div class="subscribe">
          <h2>SUBSCRIBE FOR OFFERS</h2>
-         <input type="text" value="Enter Your Email Address">
+         <input type="text" placeholder="Enter Your Email Address">
          <button type="submit" class="btn-sub"> Submit</button>
         </div>
     </section>
@@ -152,5 +162,6 @@
              <h4>Copyrights&Protected</h4>
          </div>
     </footer>
+      <!--end subscribe-->
 </body>
 </html>

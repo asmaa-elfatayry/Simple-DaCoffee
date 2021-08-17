@@ -1,0 +1,414 @@
+
+/*---mobile----*/
+
+@media (max-width:767px) { 
+    /* nav bar &heading*/
+#logo{
+    width: 200px;
+    font-size: 26px;
+    margin: auto auto;
+}
+#ul{
+    border-top: 2px solid #e02121;
+    width: 100%;
+}    
+nav ul li{width: 70px;}
+
+nav ul li a{padding: 15px 5px; } 
+
+header .cover h1{
+    letter-spacing: 1.6px;
+    font-size: 2.2em;
+}
+
+/*  end nav bar &heading*/
+
+/* start first photo section*/
+.craft{
+    font-size: 26px;
+}
+
+.three-photo{
+    margin: auto auto;
+    display: block;
+}
+
+.three-photo .pho img{
+    width: 100%;
+}
+
+.three-photo .pho h3{
+        margin: 15px 0;
+}
+.three-photo .pho p{
+        padding-right:  125px;
+        padding-left:  125px;
+}
+
+/* end first photo section*/
+
+/* start 1*photo&text 50% second section */
+
+.second{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.second .pic img{
+    max-width: 500px;
+    height: 450px;
+    flex:41% ;
+    margin: 0 2%;  
+}
+
+.second .half{
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 500px;
+}
+
+.second .tex{
+    flex:40%;
+    margin:30px 6% 0 9%;
+    height: 550px;
+}
+/* end 1*photo&text 50% */
+
+/*start four divs third section */
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.part1,.part3{
+    margin: 30px 50px -18px 80px;
+}
+.part2,.part4{
+    justify-content: center;
+    max-width: 400px;
+}
+.part4{margin: 10px 0 40px 0;}
+
+.third .part{
+    justify-content: center;
+    flex:  100%;
+    height: 310px;
+    padding: 32px;
+    justify-content: center; 
+}
+
+.third .part1 h2 {
+    padding-top:20px ;
+}
+/*end four divs */
+
+/*start fourth section*/
+.four {
+    margin-top: 70px;
+}
+.second .pic{
+    flex:40%;
+    margin-top:50px ;
+    height: 500px;
+}
+.four .left {
+    padding-left: 75px;
+}
+/*end four*/
+
+/*  last section & contact */
+.content{
+    margin: 50px 0px 70px 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content label{
+    display:block ;
+    width: 100%;
+}
+.label :nth-child(4){
+    margin-top: 40px;
+}
+.content .rap{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.content .map{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+/* subscribe*/
+.last{justify-content: left;}
+
+.last h2{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight:lighter;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.last input{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.last .btn-sub{
+    height: 38px; 
+    display: block;
+    margin:10px 0 0 20px;
+}
+/*end  subscribe*/
+
+/*start footer*/   
+.footer h2{ letter-spacing: .1em; font-size: 1.2em;}
+
+.footer h4{
+    right: 10px;
+    font-size: .8em;
+}
+
+.footer .icon{
+    left: 10px
+}
+.footer ul,li{
+    margin: 0 3px;
+}
+/*end footer*/
+}
+
+
+   /* -----ipad----- */
+
+@media (min-width:768px) and (max-width:992px) {
+/*navbar & heading */
+#logo{
+        font-size: 26px;
+        margin: auto auto;
+}
+#ul{
+        border-top: 2px solid #e02121;
+        width: 100%;
+}    
+/*end nav*/
+
+
+/* start first photo section*/   
+.three-photo{
+        margin: auto auto;
+        display: block;
+}   
+.three-photo .pho h3{
+        margin: 20px 0;
+}
+.three-photo .pho p{
+        padding-right:  225px;
+        padding-left:  225px;
+}   
+/* end first photo section*/
+
+/* start 1*photo&text 50% */
+.second{ 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15px;
+}
+.second .pic img{
+    max-width: 560px;
+    height: 450px;
+    flex:41% ;
+    margin: 0 2%;   
+}
+.second .half{
+    max-width: 560px;
+    max-height: 500px;
+}
+.second .tex{
+    flex:40%;
+    margin:10px 6% 0 9%;
+    height: 550px;
+}
+/* end 1*photo&text 50% */  
+
+/*start four divs */
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.part1,.part3{
+    margin: 30px 50px -18px 80px;
+}
+.part2,.part4{
+    justify-content: center;
+    max-width: 550px;
+}
+.part4{margin: 30px 0 40px 0;}
+
+.third .part{
+    justify-content: center;
+    flex:  100%;
+    height: 310px;
+    padding: 32px;
+    justify-content: center;
+}
+.third .part1 h2 {
+    padding-top:20px ;
+}
+
+/*end four divs */
+
+/*start fourth*/
+.second .pic{
+    flex:40%;
+    margin-top:60px ;
+    height: 500px;
+}
+.four .left {
+    padding-left: 90px;
+}
+/*end fourth*/
+
+/*  last section & contact */
+.content{
+    margin: 50px 0px 70px 150px;
+    flex-wrap: wrap;
+}
+.content label{
+    width: 100%;
+}
+
+.content .map{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+/*footer*/
+
+.footer h2{ letter-spacing: .1em; font-size: 1.6em;}
+
+.footer h4{
+    right: 10px;
+    font-size: .9em;
+}
+.footer .icon{
+    left: 10px
+}
+.footer ul,li{
+    margin: 0 3px;
+}
+/*end footer*/
+
+}
+
+ /* -----tab----- */
+
+@media (min-width:993px) and (max-width:1200px) {
+/*start navbar*/
+#logo{
+    font-size: 26px;
+    margin: auto auto;
+}
+#ul{
+    border-top: 2px solid #e02121;
+    width: 100%;
+}    
+/*end navbar*/
+
+/* start first photo section*/
+.three-photo{
+    margin: 0 165px 50px 165px;    
+}
+.three-photo .pho img{max-width: 300px;}
+
+/* end first photo section*/
+
+/* start 1*photo&text 50% */
+
+.second{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15px;
+}
+.second .pic img{
+    max-width: 700px;
+    height: 450px;
+    flex:41% ;
+    margin: 0 2%;
+}
+.second .half{
+    max-width: 675px;
+    max-height: 475px;
+}
+
+.second .tex{
+    flex:40%;
+    margin:30px 0 0 3%;
+    height: 500px;
+}
+/* end 1*photo&text 50% */
+
+/*start four divs */
+
+.third{margin: 50px 0;}
+
+.part1,.part3{
+    margin: 50px 100px 0 80px;
+}
+.part2,.part4{
+    justify-content: center;
+    max-width: 650px;
+    display: grid;
+}
+.part4{margin: 40px 0 40px 0;}
+
+.third .part{
+    justify-content: center;
+    flex:  100%;
+    height: 290px;
+    padding: 0 130px;
+}
+
+.third .part1 h2 {
+    padding-top:10px ;
+}
+/*end four divs */
+
+/*start fourth*/
+.second .pic{
+    flex:40%;
+    margin-top:50px ;
+    height: 500px;
+}
+.four .left {
+    padding-left: 90px;
+}
+/*end fourth*/
+
+/*  last section & contact */
+.content{
+    margin: 50px 0px 70px 240px;
+    flex-wrap: wrap;
+}
+.content label{
+    width: 100%;
+}
+
+.content .map{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+/*end contact*/
+}
