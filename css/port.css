@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Noto+Sans+TC:wght@700&family=Source+Sans+Pro:wght@600&display=swap');
 *{
-box-sizing: border-box;
+
 margin: 0; padding: 0;
 }
 /*same attribute*/
@@ -62,6 +62,7 @@ background-position: center center;
  background-size: cover;
 position: relative;
  height: 100vh;
+ width: 100%;
 }
 
 header .cover{
@@ -126,22 +127,23 @@ max-width: 320px;
 
 /* start 1*photo&text 50% */
 
-.second{ display: flex; margin-bottom: 0px; }
-
-.second .pic img{
-    max-width: 700px;
-    height: 450px;
-    
+.second{
+    display: grid;
+     grid-template-columns: 650px 700px;
 }
+
+ .second .pic img{
+        width: 650px; 
+     }
 
 .second .half{
    
     color: #fff;
-    flex:0 1 50%;
-    height: 450px;
+    height: 434px;
  
 }
 
+    
 .second .tex{
     background-color: #e02121;
     padding: 100px 80px 0 80px;
@@ -174,23 +176,24 @@ max-width: 320px;
 /* end 1*photo&text 50% */
 
 /*start four divs */
+
+
 .third{
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: space-evenly;
-   
-    
+    display: grid;
+    grid-template-columns: 500px 500px ;
+    grid-gap: 50px 50px;
+    padding:100px  0 0 0;
+    justify-content: center;
 }
 .third .part{
-    flex: 0 1 47%;
-    height: 360px;
-    padding: 130px;
     font-size: 14px;
 }
 .third .part img{
     max-width: 440px;
 }
-
+.third .part1 {
+    padding-right: 50px;
+}
 .third .part1 h2{
 font-size: 26px;
 padding-top: 60px;
@@ -215,7 +218,12 @@ margin-bottom: 15px;
 
 /*end four divs */
 .four{
-    margin-top: 230px;
+    display: grid;
+     grid-template-columns: 700px 650px;
+}
+
+.four{
+    margin-top: 150px;
 }
 .four .left{
     padding-left: 130px;
@@ -307,6 +315,7 @@ margin-bottom: 15px;
 .last .btn-sub{height: 40px;}
 
 /*footer*/
+
 .footer{
     display: flex;
     justify-content: center;
@@ -315,6 +324,8 @@ margin-bottom: 15px;
   position: relative;
 
 }
+
+
 .footer h2{ letter-spacing: .2em; font-size: 2em;}
 
 .footer h4{
@@ -322,6 +333,7 @@ margin-bottom: 15px;
     position: absolute;
     right: 50px;
 }
+
  a{text-decoration: none; color: black;}
 
  .footer .red{color: #e02121;}
@@ -330,6 +342,7 @@ margin-bottom: 15px;
     position: absolute;
     left: 50px
 }
+
 .footer ul,li{
     list-style: none;
     float: left;
