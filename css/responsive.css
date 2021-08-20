@@ -230,11 +230,11 @@ header .cover h1{
 
  .second .pic img{
         width: 550px; 
-        height: 450px;
+        height: 420px;
      }
 
 .second .half{
-    height: 500px;
+    height: 415px;
 }
 .second .tex {
     padding-top: 75px;
@@ -254,9 +254,15 @@ header .cover h1{
 .third .part img {
     max-width: 450px;
 }
+.third .part1{ padding-right: 15px;
+}
 .third .part3 h2 {
     padding-top: 20px;
 }
+.third .part4{ padding:0px;}
+
+.third .part2{padding: 0px;}
+
 .third .part3 {
     padding-right: 35px;
 }
@@ -339,15 +345,16 @@ header .cover h1{
 }
 
  .second .pic img{
-        width: 650px; 
+        width: 620px; 
         height: 400px;
      }
 
 .second .half{
-    height: 380px;
+    height: 370px;
+    width: 465px;
 }
 .second .tex {
-    padding-top: 75px;
+    padding-top: 85px;
 }
 /* end 1*photo&text 50% */
 
@@ -356,10 +363,11 @@ header .cover h1{
 .third{
  
     grid-template-columns: 430px 430px ;
-    grid-gap: 50px 30px ;
+    grid-gap: 70px 40px ;
     justify-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    margin-top: 100px;
 }
 .third .part img {
     max-width: 420px;
@@ -385,17 +393,24 @@ header .cover h1{
 
 /*  last section & contact */
 .content{
-    margin: 50px 0px 70px 240px;
+    margin: 50px 0px 70px 190px;
     flex-wrap: wrap;
 }
-.content label{
-    width: 100%;
+.content input{
+    display: block;
+}
+.label :nth-child(4){
+    margin-top: 40px;
+}
+.content .rap{
+    position: absolute;
+    top: 150px;
+    left: 0px;
 }
 
 .content .map{
-    width: 100%;
-    padding-left: 10px;
-    padding-top: 50px;
+    padding-left: 70px;
+    padding-top: 85px;
 }
 /*end contact*/
 }
