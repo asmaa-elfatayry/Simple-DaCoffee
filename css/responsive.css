@@ -14,7 +14,7 @@
 }    
 nav ul li{width: 70px;}
 
-nav ul li a{padding: 15px 5px; } 
+
 
 header .cover h1{
     letter-spacing: 1.6px;
@@ -52,21 +52,23 @@ header .cover h1{
 
 .second{
     display: grid;
-     grid-template-columns: 450px ;
+     grid-template-columns: 400px ;
      justify-content: center;
-     margin-top: 20px;
+     margin: 20px 0 0 0;
+     
 }
 
  .second .pic img{
-        width: 450px; 
-        height: 450px;
+        width: 400px; 
+        height: 400px;
      }
 
 .second .half{
     height: 450px;
 }
 .second .tex {
-    padding-top: 75px;
+  
+    padding: 75px 35px 0 50px;
 }
 /* end 1*photo&text 50% */
 
@@ -74,19 +76,22 @@ header .cover h1{
 
 .third{
  
-    grid-template-columns: 430px ;
-    grid-gap: 50px ;
+    grid-template-columns: 400px ;
     justify-items: center;
     justify-content: center;
 }
 .third .part img {
-    width: 430px;
+    max-width: 370px;
 }
 .third .part3 h2 {
     padding-top: 20px;
 }
+.third .part4 {
+    padding-left: 15px;
+    padding-right: 0px;
+}
 .third .part3 {
-    padding-right: 35px;
+    padding-right: 20px;
 }
 /*end four divs */
 
@@ -108,7 +113,7 @@ header .cover h1{
 
 /*  last section & contact */
 .content{
-    margin: 50px 0px 70px 60px;
+    margin: 50px 0px 70px 22px;
     display: flex;
     flex-wrap: wrap;
 }
