@@ -193,15 +193,16 @@ height: 200px;
 
 /* start 1*photo&text 50% */
 
-
-.pic{
-    margin: auto auto;
-display: grid;
+.second{
     position: relative;
     max-width: 1060px;
 }
+.pic{
+    margin: auto auto;
+display: grid;
+}
 .pic img{
-    max-width: 1060px;
+    max-width: 100%;
 }
 .overl{
     position: absolute;
@@ -239,7 +240,7 @@ display: grid;
     outline: none;
     cursor: pointer;
     font-weight: bold;
-    transition: all linear .5s;
+   
 }
 .btn2:hover,
 .btn-sub:hover{
@@ -259,8 +260,12 @@ display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-gap: 30px 30px;
 }
-.third .part img{
+.part2,
+.part4{
     max-width: 500px;
+}
+.third .part img{
+width: 100%;
 }
 .third h2{
     border-bottom: 2px solid #000;  
