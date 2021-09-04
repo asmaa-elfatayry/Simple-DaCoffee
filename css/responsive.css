@@ -230,16 +230,14 @@ margin-bottom: 10px;
 .p3{grid-area: p3;}
 .three-photo {
     margin: auto auto;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+   /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         'p1 p1 p3 p3'
-        '. p2 p2 .';
-}
-.three-photo .pho,
-.three-photo .pho img{
-    max-width: 260px;
+        '. p2 p2 .';*/
 }
 
 
@@ -323,13 +321,7 @@ margin-bottom: 10px;
     transition: none;
     justify-content: center;
     }
-    .part1:hover,
-    .part3:hover {
-        border: none;
-    }
-   
-
-
+  
 
 /*end four divs */
 
@@ -418,16 +410,13 @@ margin-bottom: 10px;
 /* start first photo section*/
 .three-photo {
     margin: auto auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 0px;
 }
-
-.three-photo .pho img,
-.three-photo .pho 
-    {
-        max-width: 275px;
-    }
+.pho{
+    padding: 10px 0px;
+}
 
 /* end first photo section*/
 /* start 1*photo&text 50% */
@@ -441,6 +430,7 @@ margin-bottom: 10px;
 .pic img {
     max-width: 100%;
 }
+
 .overl{
     height: 380px;
 }
@@ -485,13 +475,8 @@ margin-bottom: 10px;
 padding: 15px 15px 15px 0px;
 transition: none;
 }
-.part1:hover,
-.part3:hover {
-    border: none;
-}
+
 /*end four divs */
-
-
 
 /*  last section & footer */
 .content{
