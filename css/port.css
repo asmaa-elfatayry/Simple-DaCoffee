@@ -42,11 +42,7 @@ span{ color: #e02121;}
     background: #e02121;
     color: #fff;
 }
-/* ******************************* container****************************************/
-.container{
-    width: 96%;
-    margin: 100px auto;
-}
+
 
 /*start  header */
 header{
@@ -157,6 +153,14 @@ nav li.active a{
 }
 /*end navbar */
 /* start first photo section*/
+.first-sec{
+    padding: 40px;
+    margin: 40px auto;
+}
+.first-sec .container{
+    width: 97%;
+    margin: auto;
+}
 .craft{
     font-family: "Noto Sans TC";
     text-align: center;
@@ -167,9 +171,11 @@ nav li.active a{
 .three-photo{
     margin-bottom: 80px;
     text-align: center;     
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax( 300px,1fr));
-    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
 }
 .three-photo .pho{
     position: relative;
@@ -217,8 +223,13 @@ justify-content: center;
 /* end first photo section*/
 /* start 1*photo&text 50% */
 .second-section{
+padding: 40px;
+margin: 40px auto;
+}
+.second-section .container{
 display: flex;
-padding: 100px 0px;
+width: 97%;
+margin: auto;
 }
 .second-section .pic{
 width: 50%;
@@ -237,9 +248,9 @@ height: 100%;
     padding-right: 2%;
     justify-content: center;
     gap: 25px;
-    line-height: 1.7;
-    padding-bottom: 2%;
-    font-size: 20px;
+    line-height: 1.6;
+    padding: 3%;
+    font-size: 18px;
 
 }
 
@@ -256,16 +267,27 @@ letter-spacing: .05rem;
 /* end 1*photo&text 50% */
 /*start four divs */
 .third{
-    width: 96%;
-    margin: auto;
+    padding: 40px;
+    margin: 40px auto;
 }
 .third .container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax( 400px,1fr));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    margin: auto;
     gap: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    flex-wrap: wrap;
 }
-
+.third .container .part{
+    width: 45%;
+    margin: auto;
+    }
+    .third .container div:nth-child(1),
+    .third .container div:nth-child(4){
+        width: 47%;
+    }
 .third .part img{
 width: 100%;
 height: 1;
@@ -273,7 +295,7 @@ border-radius: 10px;
 }
 .third .container h2{
     border-bottom: 2px dotted #a5a4a4;  
-    font-size: 30px;
+    font-size: 26px;
     padding-bottom: 5px;
     line-height: 2.3rem;
 }
@@ -285,15 +307,15 @@ border-radius: 10px;
     color: #333;
 }
 
-.third .part{
-width: 100%;
-margin: auto;
-}
-
 /* start fourth section */
 .fourth-section{
+    padding: 40px;
+    margin: 40px auto;
+    }
+    .fourth-section .container{
     display: flex;
-    padding: 100px 0px;
+    width: 97%;
+    margin: auto;
     }
     .fourth-section .pic{
     width: 50%;
@@ -312,9 +334,9 @@ margin: auto;
         padding-right: 2%;
         justify-content: center;
         gap: 25px;
-        line-height: 1.7;
-        font-size: 20px;
-        padding-bottom: 2%;
+        line-height: 1.6;
+        font-size: 18px;
+        padding: 3%;
     }
     .fourth-section .text p{
     letter-spacing: .05rem; 
@@ -326,25 +348,31 @@ margin: auto;
 
 /*  last section & footer */
 .content{
-  width: 95%;
-  margin: auto;
+    padding: 40px;
+    margin: 40px auto;
 }
 .content .container{
- display: flex;
- justify-content: space-between;
- align-items: center;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    gap: 40px;
 }
 
 .content h2{
     padding-bottom: 10px;
 }
-.content label{
-    display:block ;
+.content .container .label{
+    width: 42%;
+    margin: auto;
+
+}
+.content .container label{
     margin: 8px 0px;
 }
 .map {
-    width: 50%;
+    width: 40%;
     margin: auto;
     height: 460px;
 }
@@ -352,8 +380,8 @@ margin: auto;
     width: 100%;
     height: 100%;
 }
-.content input{
-    width: 280px;
+.content .container input{
+    width: 100%;
     height: 45px;
     margin:  5px;
     padding: 0 20px;
@@ -373,8 +401,11 @@ margin: auto;
     box-shadow:  5px 2px 5px 5px #f4f4f4;
     opacity: .5;
     padding: 20px;
+    width: 100%;
 }
-
+.content .container input{
+    margin: 16px auto;
+}
 
 .hvr-buzz-out {
     -webkit-transform: perspective(1px) translateZ(0);
@@ -386,7 +417,7 @@ margin: auto;
     font-weight: bold;
     background-color: #e02121;
     color: #fff;
-    display: block;
+    width: 200px;
 } 
 .hvr-buzz-out :hover{
     background-color: #fff;
@@ -395,7 +426,8 @@ margin: auto;
 }
 /* subscribe*/
 .last{
-    padding:40px  20px;
+    padding: 50px;
+    margin: 40px auto;
     background-color: #e02121;
 }
 .last .holder{
@@ -403,6 +435,8 @@ margin: auto;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    width: 90%;
+    margin: auto;
 }
 .last h2{
     color: #fff;
@@ -458,17 +492,16 @@ margin: auto;
 
 .footer{
  padding: 40px 0px;
- margin-top: 50px;
+ margin-top: 40px;
 margin: auto;
-width: 100%;
 }
 .footer .holder{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax( 260px,1fr));
-    gap: 30px;
+  display: flex;
 text-align: center;
     justify-content: space-around;
     align-items: center;
+    width: 95%;
+    margin: auto;
     
 }
 .footer h2{ letter-spacing: .2em; font-size: 2em;}
@@ -476,6 +509,7 @@ text-align: center;
 .footer h4{
     color: #6b6b6b;
 }
+
 a{text-decoration: none; color: black;}
 
 .footer .red{color: #e02121;}
