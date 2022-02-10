@@ -52,13 +52,12 @@
         font-size: 18px;
         font-weight:normal;
     }
-    .third .container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill,minmax( 280px,1fr));
-        gap: 20px;
-    }
     .third .container p {
     font-size: 16px;
+    }
+    .map {
+        width: 97%;
+        height: 340px;
     }
 }
 @media (max-width:737px) { 
@@ -118,9 +117,6 @@ margin-bottom: 10px;
 
    /* -----ipad----- */
    @media (max-width:991px){
-    .three-photo{
-        gap: 40px;
-    }
     .second-section .pic{
         display: none;
     }
@@ -155,19 +151,28 @@ margin-bottom: 10px;
         flex-direction: column;
         gap: 50px;
         align-items: center;
+        width: 98%;
+        margin: auto;
+    }
+  
+    .content .container .label{
+        width: 90%;
     }
     .map {
-        width: 50%;
-        margin: auto;
-        height: 360px;
+        width: 90%;
+        height: 460px;
     }
+    .content .container label{
+        margin:13px 0px;
+    }
+    .content .container input{
+        margin: 16px auto;
+    }
+    
+
 }
 @media (max-width:767px) {
-    .map {
-        width: 80%;
-        margin: auto;
-        height: 360px;
-    }
+  
     .last .holder{
         display: flex;
         justify-content: center;
@@ -175,6 +180,10 @@ margin-bottom: 10px;
         flex-direction: column;
         gap: 15px;
     }
+    .last .holder h2{
+        font-size: 20px;
+    }
+     
     .footer .holder{
         display: flex;
         flex-direction: column;
@@ -183,22 +192,45 @@ margin-bottom: 10px;
         gap: 30px;
         
     }
-  
-    .last input{
-        margin: 0;
+    .content .container input {
+        padding-left: 4px;
+        padding-right: 0;
     }
+    .content .container textarea {
+        padding-left: 4px;
+        padding-right: 0;
+    }
+    .hvr-buzz-out {
+        display: block;
+        width: auto;
+    }
+    .content .container input{
+        margin: 16px auto;
+    }
+    .map {
+        width: 95%;
+        height: 360px;
+    }
+
+
+
 }
 @media (max-width:917px) {
-.third {
-    width: 85%;
-    padding: 30px 10px;
-    }
+
 .third .container h2 {
     font-size: 22px;
+}
+.third .container{
+    gap: 10px;
 }
     .third .part img{
         display: none;
     }
+    .third .container div:nth-child(1),
+    .third .container div:nth-child(4){
+        width: 90%;
+        margin: auto;
+        }
 } 
 @media (min-width:738px) and (max-width:992px) {
 #logo{
@@ -221,20 +253,20 @@ header nav{
     border-top: 2px solid #e02121;
     width: 100%;
 }    
-
-.three-photo{
-    grid-template-columns: repeat(auto-fill,minmax( 350px,1fr));
-    gap: 0px;
-}
-textarea{
-    width: 285px;
-}
 }
 
-@media (min-width:1200px)  {
-    .footer .holder{
-        display: grid;
-        grid-template-columns: repeat(auto-fill,minmax( 350px,1fr));
+@media(max-width:500px){
+    .first-sec,
+    .second-section,
+    .third,
+    .fourth-section,
+    .content{
+  padding: 30px;
     }
+      .container{
+          width: 99%;
+          margin: auto;
+      }
 
 }
+
