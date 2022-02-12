@@ -3,7 +3,7 @@
 @media(max-width:500px){
     #logo {
         width: 100%;
-        font-size: 26px;
+        font-size: 25px;
         margin: auto auto;
         text-align: center;
     }
@@ -13,7 +13,7 @@
     }
     header .cover h1 {
       font-family:Arial, Helvetica, sans-serif;
-      font-size: 26px;
+      font-size: 23px;
     }
     nav #ul {
     display: block;
@@ -221,7 +221,7 @@ margin-bottom: 10px;
     font-size: 22px;
 }
 .third .container{
-    gap: 10px;
+    gap: 15px;
 }
     .third .part img{
         display: none;
@@ -266,6 +266,7 @@ header nav{
       .container{
           width: 99%;
           margin: auto;
+          padding:15px 0;
       }
 
 }
