@@ -2,6 +2,9 @@
 *{
 margin: 0; padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
     box-sizing: border-box;
     font-family:   'Source Code Pro';
@@ -419,9 +422,9 @@ overflow: hidden;
     opacity: .7;
     outline:none;
     border: 1px solid #f4f4f4 ;
-    -webkit-box-shadow: 5px 5px 5px 5px #f4f4f4;
-    -moz-box-shadow:  5px 5px 5px 5px #f4f4f4;
-    box-shadow:  5px 2px 5px 5px #f4f4f4;
+    -webkit-box-shadow:5px 2px 5px 5px #e7e4e4;
+    -moz-box-shadow:  5px 2px 5px 5px #e7e4e4;
+    box-shadow: 5px 2px 5px 5px #e7e4e4;
     
 }
 .content .msg{
@@ -429,9 +432,10 @@ overflow: hidden;
 }
 .content textarea{
     border: 1px solid #f4f4f4 ;
-    box-shadow:  5px 2px 5px 5px #f4f4f4;
+    box-shadow:  5px 2px 5px 5px #e7e4e4;
     opacity: .5;
     padding: 20px;
+    margin-top:20px;
     width: 100%;
 }
 .content .container input{
